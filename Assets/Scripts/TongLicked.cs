@@ -50,7 +50,7 @@ public class TongLicked : MonoBehaviour
 
             this.GetComponent<Rigidbody>().useGravity = false;
 
-            if(distanceToTong < 0.5)
+            if(distanceToTong < 0.25)
             {
                 ReturnTong();
             }

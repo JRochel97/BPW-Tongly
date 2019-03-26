@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8709470279260826452}
   - component: {fileID: 6567584057580607005}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_Prefab
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
-  movementSpeed: 2.5
-  range: 10
+  movementSpeed: 5
+  range: 15
 --- !u!135 &6567584057580607005
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -79,14 +79,6 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
       propertyPath: m_LocalPosition.x
@@ -131,6 +123,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
