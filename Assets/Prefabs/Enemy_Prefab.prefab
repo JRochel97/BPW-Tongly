@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
   movementSpeed: 5
-  range: 15
+  range: 10
 --- !u!135 &6567584057580607005
 SphereCollider:
   m_ObjectHideFlags: 0
