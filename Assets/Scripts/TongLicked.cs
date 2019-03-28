@@ -19,6 +19,7 @@ public class TongLicked : MonoBehaviour
 
     public bool EnemyKilled;
     public GameObject ScaryEnemy;
+    public float EnemiesKilled = 0;
 
     private void Update()
     {
@@ -61,9 +62,14 @@ public class TongLicked : MonoBehaviour
 
         if (EnemyKilled == true && fired == true)
         {
+            EnemiesKilled += 1;
             Destroy(ScaryEnemy);
             Debug.Log("Destroyed");
+            EnemyKilled = false;
+            GameObject.Find("GameManager").GetComponent<GameManager>().EnemyNumberRemaining--;
+
         }
+
     }
     // Returns Tong to Player
     void ReturnTong()

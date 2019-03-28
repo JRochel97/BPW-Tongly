@@ -46,12 +46,12 @@ public class PlayerMovement : MonoBehaviour
        // Reloading the scene when you've fallen off the Island
        if (col.gameObject.tag == "Death")
         {
-            SceneManager.LoadScene("wha");
+            SceneManager.LoadScene("Level");
         }
 
        if( col.gameObject.tag == "Enemy")
         {
-            SceneManager.LoadScene("wha");
+            SceneManager.LoadScene("LEvel");
         }
     }
 
