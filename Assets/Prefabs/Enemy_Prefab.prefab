@@ -124,6 +124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f64b626ef9fffef4ca2734a3236d9a08, type: 2}
     - target: {fileID: 100002, guid: 910b91d399be66e478d6f460e3ceb612, type: 3}
       propertyPath: m_TagString
       value: Enemy

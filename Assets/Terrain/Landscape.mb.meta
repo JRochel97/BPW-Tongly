@@ -84,11 +84,13 @@ ModelImporter:
     2000008: Tree:bottom
     2000010: Tree:bottom1
     2100000: lambert1
+    2100002: lambert2
     2300000: pDisc1
     2300002: //RootNode
     3300000: pDisc1
     3300002: //RootNode
     4300000: pDisc1
+    4300002: Landscape:pDisc1
   externalObjects: {}
   materials:
     importMaterials: 1

@@ -51,7 +51,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100006, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
       propertyPath: m_Name
-      value: Rocks
+      value: Rocks_Prefab
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
       propertyPath: m_TagString
@@ -113,6 +113,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300006, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd74018654888814abede868b7927d01, type: 2}
+    - target: {fileID: 2300010, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd74018654888814abede868b7927d01, type: 2}
+    - target: {fileID: 2300008, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd74018654888814abede868b7927d01, type: 2}
     - target: {fileID: 400000, guid: d5adb8ea6bcdcc148b4785ca9d33cc53, type: 3}
       propertyPath: m_LocalPosition.y
       value: -8.33
